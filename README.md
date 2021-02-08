@@ -1,4 +1,4 @@
-# 30-Days-30-Sites-Challenge
+# 30 Days - 30 Sites Challenge
 
 Sign Up for the challenge by clicking [here](https://www.subscribepage.com/30days30sites).
 
