@@ -4,7 +4,7 @@ Sign Up for the challenge by clicking [here](https://www.subscribepage.com/30day
 
 ## What have I done so far:
     None :)
-## To Do
+## To Do:
 ### Day 01 - Portfolio
 ### Day 02 - Paralla Event Invite
 ### Day 03 - Toursit Attraction
