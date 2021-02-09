@@ -1,0 +1,25 @@
+#contacts .contacts-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+#contacts .contact-item {
+    margin: 2rem;
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(39, 39, 39, .01);
+    border-radius: 1rem;
+    box-shadow: -5px 3px 10px rgba(0, 0, 0, .3);
+    width: 80%;
+}
+
+#contacts .contact-item h1, h2 {
+    color: rgba(39, 39, 39, .7);
+}

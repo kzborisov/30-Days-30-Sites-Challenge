@@ -3,9 +3,8 @@
 Sign Up for the challenge by clicking [here](https://www.subscribepage.com/30days30sites).
 
 ## What have I done so far:
-    None :)
+### Day 01 - [Portfolio]()
 ## To Do:
-### Day 01 - Portfolio
 ### Day 02 - Paralla Event Invite
 ### Day 03 - Toursit Attraction
 ### Day 04 - Event Invite

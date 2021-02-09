@@ -1,0 +1,25 @@
+#portfolio .portfolio-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+#portfolio .portfolio-item {
+    width: 100%;
+    height: 30vh;
+    margin: 2rem;
+    background-color: black;
+    position: relative;
+}
+
+#portfolio .portfolio-link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 1.4rem;
+    text-decoration: none;
+}

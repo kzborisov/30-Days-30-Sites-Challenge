@@ -1,0 +1,105 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+
+/* Own Css */
+@import url('./hero.css');
+@import url('./about.css');
+@import url('./portfolio.css');
+@import url('./contacts.css');
+@import url('./footer.css');
+
+/* Basic Reset */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lexend Mega', sans-serif;
+    font-size: 10px;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+h2 {
+    color: rgba(39, 39, 39, .8);
+    font-size: 1.4rem;
+}
+
+.btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem 3rem;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Section Title */
+.section-title {
+    color: rgba(39, 39, 39, .7);
+    font-size: 3.2rem;
+    text-transform: capitalize;
+    margin: 2rem;
+    padding-bottom: 3rem;
+}
+
+.section-title span {
+    color: rgb(235, 82, 82);
+}
+
+.section-paragraph{
+    color: rgba(39, 39, 39, .7);
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 2;
+    margin: 2rem;
+    padding-bottom: 2.5rem;
+}
+
+/* Media */
+@media only screen and (min-width: 768px) {
+    #about .container {
+        flex-direction: row;
+    }
+
+    .section-title {
+        font-size: 4.2rem;
+    }
+    .section-paragraph {
+        font-size: 2rem;
+    }
+
+    #about .col-left {
+        flex-basis: 40%;
+    }
+
+    #about .col-right {
+        width: 45%;
+        height: 70vh;
+    }
+    #portfolio .portfolio-content {
+        flex-direction: row;
+    }
+    #contacts .contacts-content {
+        flex-direction: row;
+    }
+    #contacts .contacts-item {
+        flex-basis: 33%;
+    }
+    #footer .social-icon img{
+        width: 6rem;
+        height: 6rem;
+    }
+}
