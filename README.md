@@ -3,7 +3,7 @@
 Sign Up for the challenge by clicking [here](https://www.subscribepage.com/30days30sites).
 
 ## What have I done so far:
-### Day 01 - [Portfolio](./01-portfolio)
+### Day 01 - [Portfolio](https://github.com/kzborisov/30-Days-30-Sites-Challenge/tree/main/01-portfolio)
 ## To Do:
 ### Day 02 - Paralla Event Invite
 ### Day 03 - Toursit Attraction
