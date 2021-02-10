@@ -4,8 +4,8 @@ Sign Up for the challenge by clicking [here](https://www.subscribepage.com/30day
 
 ## What have I done so far:
 ### Day 01 - [Portfolio](30-Days-30-Sites-Challenge/01-portfolio)
+### Day 02 - [Parallax Event Invite](30-Days-30-Sites-Challenge/02-parallaxEventInvite)
 ## To Do:
-### Day 02 - Parallax Event Invite
 ### Day 03 - Toursit Attraction
 ### Day 04 - Event Invite
 ### Day 05 - Restaurant Menu
