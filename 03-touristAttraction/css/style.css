@@ -1,0 +1,289 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+/* Shared classes */
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.section-title {
+    color: rgba(39, 39, 39, .5);
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    margin: 3rem 0;
+}
+
+.paragraph {
+    margin: 2rem 0;
+    font-size: 1.6rem;
+    text-align: justify;
+    color: rgba(39, 39, 39, .6);
+    border-bottom: 1px solid rgba(39, 39, 39, .5);
+    border-top: 1px solid rgba(39, 39, 39, .5);
+    padding: 2rem;
+}
+.white {
+    color: #fff;
+}
+.green {
+    color: green!important;
+}
+.red {
+    color: crimson!important;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    width: 90%;
+}
+.column {
+    flex: 25%;
+    max-width: 25%;
+    min-width: 25%;
+    padding: 0 4px;
+}
+
+.column video, img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+.column img {
+    object-fit: cover;
+    height: 25rem;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1000px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+/* Navbar */
+.navbar {
+    padding-left: 2.6rem;
+}
+.bg-dark {
+    background-color: rgba(39, 39, 39, .5) !important;
+}
+
+.navbar-light .navbar-toggler {
+    font-size: 2.4rem;
+    font-weight: 900;
+}
+
+.navbar-brand {
+    font-size: 2.4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: .3rem 1.4rem;
+    border-radius: 2rem;
+    background-color: rgba(0, 0, 0, 0.171);
+}
+
+.nav-item {
+    font-size: 2.2rem;
+}
+
+.nav-link {
+    text-transform: capitalize;
+    position: relative;
+    transition: all 0.5s ease;
+}
+.nav-link::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: crimson;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.nav-link:hover {
+    color: crimson!important;
+}
+
+.nav-link:hover::before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+} 
+
+/* Carousel */
+.carousel-caption {
+    max-width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: initial;
+    bottom: initial;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 2rem 5rem;
+    border-radius: 10rem;
+}
+.carousel-caption h3 {
+    font-size: 2.8rem;
+    /* font-size: 4.2rem; For desktop */
+}
+
+#carouselExampleIndicators img {
+    height: 100vh;
+    object-fit: cover;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 4rem;
+    height: 4rem;
+}
+
+
+
+
+
+/* About */
+
+
+#about .about-content {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#about .img {
+    width: 100%;
+    height: 50vh;
+    margin: 2rem 0;
+}
+
+#about .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+/* Videos */
+#videos .videos-header {
+    text-align: center;
+}
+
+
+
+/* Gallery */
+#galery .column img {
+    transition: .35s ease transform;
+}
+#galery .column img:hover {
+    transform: scale(1.5);
+    border: 1px solid rgba(255, 255, 255)
+}
+
+
+/* Facts */
+#facts .facts-header {
+    text-align: center;
+}
+
+#facts .facts-content {
+    width: 90%;
+}
+
+#facts .row {
+    width: 100%;
+}
+
+#facts .column {
+    background: url("../img/city.jpg") center center no-repeat;
+    background-size: cover;
+    opacity: .4;
+    border: 1px solid rgba(39, 39, 39, .5);
+    text-align: center;
+    margin: .5rem;
+    min-width: 22%;
+    max-width: 22%;
+    margin: 0 auto;
+    height: 70vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+/* #facts .column::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    background-color: rgba(255, 255, 255, 0.7);
+} */
+#facts .column h2 {
+    color: rgba(39, 39, 39, .7);
+    margin: 1.6rem 0;
+}
+
+#facts .column p {
+    color: rgba(39, 39, 39);
+    font-size: 1.6rem;
+}
+@media screen and (max-width: 1000px) {
+    #facts .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    #facts .column {
+        flex: 100%;
+        margin: 1rem 0;
+        max-width: 90%;
+    }
+}
