@@ -5,7 +5,7 @@ Sign Up for the challenge by clicking [here](https://www.subscribepage.com/30day
 ## What have I done so far:
 ### Day 01 - [Portfolio](./01-portfolio)
 ### Day 02 - [Parallax Event Invite](./02-parallaxEventInvite)
-### Day 03 - Toursit Attraction(./03-touristAttraction)
+### Day 03 - [Toursit Attraction](./03-touristAttraction)
 ## To Do:
 ### Day 04 - Event Invite
 ### Day 05 - Restaurant Menu
